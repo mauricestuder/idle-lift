@@ -47,9 +47,9 @@ connection after the first visit.
 - The **P** button sets the parking price, from Free to Rip-off: cheap parking
   brings more guests, dear parking pays more per guest. The sheet shows what
   each price earns.
-- Blocky pixel look: every surface has a small pixel texture, trees, rocks and
-  snowmen are made of blocks, guests have big square heads, and the menus use a
-  pixel font.
+- Cozy look: warm golden light, soft peach skies and lavender shade on the snow,
+  plump round trees, glowing windows and chimney smoke in the village, guests in
+  knitted beanies, wide pistes, and a rounded, friendly font on soft wooden boards.
 - The valley has a village of painted chalets and a church; hot-air balloons,
   paragliders and skaters on the frozen lakes keep it lively.
 
