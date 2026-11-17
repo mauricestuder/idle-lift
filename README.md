@@ -48,8 +48,8 @@ connection after the first visit.
 ## Controls
 
 - Hold a board to keep buying. Keys 1 to 6 press the first six boards, Space starts rush hour.
-- **Touch:** one finger moves the camera, two fingers zoom, twist and tilt.
-- **Mouse:** drag moves, right-drag turns, wheel zooms.
+- **Touch:** one finger moves the camera, two fingers zoom.
+- **Mouse:** drag moves, wheel zooms.
 
 Progress saves in the browser (`localStorage`, key `firstchair.idle`).
 
