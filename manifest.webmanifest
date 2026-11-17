@@ -1,0 +1,17 @@
+{
+  "name": "Idle Lift",
+  "short_name": "Idle Lift",
+  "description": "An idle ski resort on a 3D mountain: guests ride and pay, you buy lifts, speed and more guests.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#14202e",
+  "theme_color": "#14202e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
