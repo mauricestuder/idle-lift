@@ -20,6 +20,12 @@ does not work, because browsers block JavaScript modules on `file://`.
 Over https the game installs as an app (Add to Home Screen) and loads without a
 connection after the first visit.
 
+There is also a 2D version in `2d/` (online at
+https://mauricestuder.github.io/idle-lift/2d/): the resort as a side-view
+cartoon, with eight mountains in a row, one lift each. Tap the **Lv** badge above
+a lift to upgrade it, tap a station for a short boost, and build the next
+mountain when you can afford it.
+
 ## The game
 
 - Income per second is worked out from your lifts, guests and prices, and stays
