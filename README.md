@@ -37,13 +37,19 @@ mountain when you can afford it.
 - **Snow guns**, **Ski school**, **Night skiing** and **Restaurant** unlock as you play.
 - **Rush hour** is a 30 second boost with a 2 minute recharge.
 - 26 quests pay bonuses. Three are open at a time; finishing one unlocks the next.
-  When every lift is a gondola you move to the next of three mountains
-  (Sonnenhang, Gamshorn, Wetterspitz) and all income doubles.
+  When every lift is a gondola you move to the next mountain and all income
+  doubles. Every mountain is higher than the one before (Sonnenhang 2,030 m,
+  Gamshorn 2,540 m, Wetterspitz 2,930 m, then Firnhorn, Adlerhorn,
+  Gletscherkrone, Sternenhorn, Himmelsspitz and on without end) and has a
+  landmark of its own: a summit cross, a ski jump, a weather station, an igloo
+  village, a panorama restaurant, a glacier, an observatory and a skywalk.
 - **Events** every few minutes: Powder day (income x2), Storm (a lift stops until
   you secure it, for a bonus) and Celebrity visit (tap the skier in gold).
 - While the game is closed the resort earns half its income for up to 8 hours.
   The **Lodge** board raises both.
-- Pistes wind down the mountain in snake curves, with tunnels, wooden bridges,
+- Pistes wind down the mountain in snake curves, with tunnels through real
+  hills and wooden bridges over real gullies (the ground is shaped for them, on
+  straight stretches away from other pistes),
   mogul fields, a race section with gates and a fun park with rails, a box and a
   halfpipe.
 - Guests arrive by car and coach on the valley road, park in a big car park
@@ -76,12 +82,12 @@ sw.js                 service worker for offline play
 icons/                app icons
 vendor/               three.js r160 (MIT licence, see vendor/three-LICENSE)
 js/tuning.js          every balance number: fares, prices, growth, caps
-js/maps.js            the three mountains
+js/maps.js            the mountains, their heights and landmarks
 js/terrain.js         heights, slopes, forest              (no rendering)
 js/network.js         shapes of lifts and pistes           (no rendering)
 js/layout.js          where the six lifts go on a mountain (no rendering)
 js/idle.js            the rules: guests, income, buying, milestones, saving (no rendering)
-js/view/              three.js scene, camera, lifts, pistes, buildings, guests, extras
+js/view/              three.js scene, camera, lifts, pistes, buildings, guests, extras, special (landmarks)
 js/view/cars.js       the valley road, car park, cars and coaches
 js/view/deco.js       village, balloons, paragliders, skaters
 js/ui.js              money sign, upgrade boards, quest list, pop-ups, notices
